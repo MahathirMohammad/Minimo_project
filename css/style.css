@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Ubuntu+Condensed&family=Ubuntu:ital,wght@0,300;1,300&display=swap');
+
+
+/* common code starts */
+body{
+	font-family: "Playfair Display", serif;
+	font-size: 16px;
+	font-weight:400 ;
+}
+/* common code starts */
+/*header start */
+header{
+	padding: 35px 0;
+}
+.container{
+	overflow: hidden;
+	margin: 0 auto;
+	width: 90%;
+}
+.logo{
+	margin-top: 9px;
+	float: left;
+	width: 13%;
+}
+.logo a{}
+.logo a img{
+	width: 100%;
+}
+.menu{
+	float: right;
+	width: 60%;
+}
+.menu ul{
+	float: right;
+	list-style: none;
+
+}
+.menu ul li{
+	float: left;
+}
+.menu ul li a{
+	margin:0 43px;
+	display: inline-block;
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-bottom: 1px solid transparent;
+	transition: .33s linear;
+}
+.menu ul li:last-child a{
+	margin-right: 0px;
+}
+
+.menu ul li a:hover {
+	border-bottom: 1px solid  #626262;
+}
+
+/* header end */
+/* banner start*/
+.b_img{
+
+}
+.b_img img{
+	width: 100%;
+}
+/* banner end*/
+/* news start*/
+.news{
+	margin-top: 80px;
+	background-color: #f0f0f0;
+	padding: 60px 0;
+}
+.signup{
+	text-align: center;
+
+}
+h1{
+	font-weight:400 ;
+	font-size: 30px;
+	margin-top: 20px;
+	margin-bottom:65px ;
+	color: #333333;
+
+
+}
+form{
+	position: relative;
+	width: 400px;
+	margin: 0 auto;
+
+}
+ input{
+	font-family: "Playfair Display", serif;
+	font-size: 14px;
+	color: #626262;
+	width: 299px;
+	height: 40px;
+	border: none;
+	border-bottom: 1px solid #000000;
+	background-color: transparent;
+	padding-left: 5px;
+	padding-right: 52px;
+}
+input:focus{
+	outline: 0;
+}
+
+ button{
+ 	position: absolute;
+ 	background: transparent;
+ 	border: none;
+ 	cursor: pointer;
+ 	right: 19px;
+ 	top: 10px;
+}
+.form button img{
+
+}
+
+/* news start*/
+
+
